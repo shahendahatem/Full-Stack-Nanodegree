@@ -44,13 +44,13 @@ The project code requires the following software:
 If you need to bring the virtual machine back online with $ vagrant up. Then log into it with $ vagrant ssh
 
 2.Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip)
-
-	Unzip this file after downloading it. The file inside is called newsdata.sql.
-	To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command
-	```psql -d news -f newsdata.sql```
+Unzip this file after downloading it. The file inside is called newsdata.sql.
+To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command
+```psql -d news -f newsdata.sql```
 
 3.Creating views
-####collect		
+
+ collect		
 This view is used to show the information about author_title,author_name,author_ID and he total view for each author
 
 ````sql
@@ -66,7 +66,7 @@ CREATE VIEW collect AS
     ORDER BY views DESC;
 ````  
 
-#### All_requests 
+All_requests 
 This view show the total number of requests on the website
 
 ````sql
@@ -77,7 +77,7 @@ CREATE VIEW All_requests AS
 		   ORDER BY date(time);
 ````
 
-####error_requests
+error_requests
 This view show the total nymber of bad requests on the website
 
 ````sql
@@ -87,7 +87,7 @@ CREATE VIEW error_requests AS
 		   GROUP BY date(time) 
 		   ORDER BY date(time);
 ````
-####error_rate
+error_rate
 This view show the percentage of the bad requests 
 
 ````sql

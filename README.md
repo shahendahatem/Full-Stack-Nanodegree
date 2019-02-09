@@ -6,9 +6,9 @@ First project in the Udacity [Full Stack Web Developer Nanodegree](https://www.u
 The main task of this project is a reporting tool that uses information from a database called news that contains
 three tables :
 
-1.The `authors table` includes information about the authors of articles.
-2.The `articles table` includes the articles themselves.
-3.The `log table includes` one entry for each time a user has accessed the site.
+1. The `authors table` includes information about the authors of articles.
+2. The `articles table` includes the articles themselves.
+3. The `log table includes` one entry for each time a user has accessed the site.
 
 The reporting tool should answer the following questions:
 
@@ -44,7 +44,7 @@ The project code requires the following software:
 1.The virtual machine from step 1
 If you need to bring the virtual machine back online with $ vagrant up. Then log into it with $ vagrant ssh
 
-2.Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip),
+2.Download the data from [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 Unzip this file after downloading it. The file inside is called newsdata.sql.
 
 To run the reporting tool, you'll need to load the site's data into your local database. To load the data, use the command

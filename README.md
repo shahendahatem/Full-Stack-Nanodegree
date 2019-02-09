@@ -3,7 +3,8 @@ First project in the Udacity [Full Stack Web Developer Nanodegree](https://www.u
 ### By Shahenda Hatem
 
 ## Project Requirements
-The main task of this project is a reporting tool that uses information from a database called news that contain three tables :
+The main task of this project is a reporting tool that uses information from a database called news that contains
+three tables :
 
 1.The `authors table` includes information about the authors of articles.
 2.The `articles table` includes the articles themselves.
